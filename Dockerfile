@@ -2,7 +2,7 @@ FROM python:3.6.1-slim
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y make nano wget && \
+    apt-get install -y make nano wget jq && \
     rm -rf /var/lib/apt/lists/*
 
 RUN pip install pip awscli --upgrade
