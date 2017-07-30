@@ -18,6 +18,7 @@ apt-get -y upgrade -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--fo
 apt-get install -y \
     apt-transport-https \
     ca-certificates \
+    jq \
     curl \
     software-properties-common
 
