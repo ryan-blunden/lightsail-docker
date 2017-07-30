@@ -16,6 +16,7 @@ apt-get -y upgrade -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--fo
 # apt-get upgrade -y
 
 apt-get install -y \
+    make \
     apt-transport-https \
     ca-certificates \
     jq \

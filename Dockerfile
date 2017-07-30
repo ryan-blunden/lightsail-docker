@@ -11,6 +11,6 @@ RUN echo "\ncomplete -C '/usr/local/bin/aws_completer' aws\naws configure && sou
 
 WORKDIR /usr/src/app
 
-COPY . .
+COPY resources /usr/src/app
 
 CMD ["bash"]
